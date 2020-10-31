@@ -18,6 +18,7 @@
 
 :root {
     --dark-grey: #212121;
+    --purple: #4a2573;
 }
 
 .container {
@@ -27,7 +28,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #341952;
+  background-color: var(--purple);
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   color: white;
 }
