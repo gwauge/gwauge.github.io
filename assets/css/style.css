@@ -72,16 +72,20 @@ body {
     height: 300px;
 }
 
-.img-credits {
-   
+.credits {
+    font-size: 80%;
 }
 
 footer {
     width: 100%;
-    font-size: 70%;
     background-color: #231038;
     position: fixed;
     bottom: 0px;
+}
+
+.social-links {
+    width: 40%;
+    margin: 0px auto;
 }
 
 /* For mobile phones: */
@@ -114,4 +118,6 @@ footer {
         width: 300px;
         height: 225px;
     }
+
+    .social-links { width: 80%; }
 }
