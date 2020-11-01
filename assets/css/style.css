@@ -2,18 +2,21 @@
   font-family: "Lovelo Black";
   src: url("../fonts/Lovelo/Lovelo-Black.woff2") format("woff2"),
     url("../fonts/Lovelo/Lovelo-Black.woff") format("woff");
+  font-display: swap
 }
 
 @font-face {
   font-family: "Lovelo Line Bold";
   src: url("../fonts/Lovelo/Lovelo-LineBold.woff2") format("woff2"),
     url("../fonts/Lovelo/Lovelo-LineBold.woff") format("woff");
+  font-display: swap
 }
 
 @font-face {
   font-family: "Lovelo Line Light";
   src: url("../fonts/Lovelo/Lovelo-LineLight.woff2") format("woff2"),
     url("../fonts/Lovelo/LovLovelo-LineLight.woff") format("woff");
+  font-display: swap
 }
 
 :root {
@@ -66,9 +69,10 @@ body {
     border: 2px solid black;
     margin: 0px auto;
     width: 404px;
+    height: 304px;
 }
 
-#gif404 img {
+#gif404 video {
     width: 400px;
     height: 300px;
 }
@@ -80,7 +84,7 @@ body {
 footer {
     width: 100%;
     background-color: #231038;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
 }
 
@@ -99,30 +103,23 @@ footer {
     
     .logo-title {
         height: 40px;
-        background-color: var(--dark-grey);
         font-size: 32px;
-        font-family: "Lovelo Line Bold";
     }
     
     .logo-subtitle {
         height: 25px;
-        background-color: var(--dark-grey);
         font-size: 16px;
-        font-family: "Lovelo Black";
     }
 
     #gif404 {
         width: 304px;
+        height: 229px;
     }
 
-    #gif404 img {
+    #gif404 video {
         width: 300px;
         height: 225px;
     }
-<<<<<<< HEAD
 
     .social-links { width: 80%; }
 }
-=======
-}
->>>>>>> 15920a91b083412f7f541c663bb5fb9b42877d6b
