@@ -38,6 +38,7 @@ body {
 
 .logo {
     width: fit-content;
+    width: -moz-fit-content;
 }
 
 .logo img {
